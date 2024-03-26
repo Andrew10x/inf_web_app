@@ -12,12 +12,12 @@ body {
     box-shadow: 0 3px 5px rgb(0 0 0 / 63%);
 }
 
+.container>.ec2-div {
+    color:rgb(19, 185, 197);
+    font-weight: 500;
+}
+
 .container>div {
     margin: 5px;
     color:#8a2be2;
-}
-
-.ec2-div {
-    color:rgb(23, 195, 207);
-    font-weight: 500;
 }
