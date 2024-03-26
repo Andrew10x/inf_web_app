@@ -14,5 +14,10 @@ body {
 
 .container>div {
     margin: 5px;
-    color:blueviolet;
+    color:#8a2be2;
+}
+
+.ec2-div {
+    color:rgb(23, 195, 207);
+    font-weight: 500;
 }
