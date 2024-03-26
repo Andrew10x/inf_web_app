@@ -11,3 +11,7 @@ body {
     border-radius: 3px;
     box-shadow: 0 3px 5px rgb(0 0 0 / 63%);
 }
+
+.container>div {
+    margin: 5px;
+}
