@@ -1,5 +1,5 @@
 locals {
-  project_name        = "Infrastructure labs"
+  project_name        = "Infrastructure labs Project"
   security_group_name = "inf-labs-security-group"
   instance_name       = "inf-labs-ec2"
   ubuntu_ami          = "ami-0faab6bdbac9486fb"
@@ -15,7 +15,7 @@ provider "aws" {
 
 resource "aws_instance" "inf-labs-ec2" {
   ami             = local.ubuntu_ami
-  instance_type   = "t3.micro"
+  instance_type   = "t2.micro"
   key_name        = aws_key_pair.inf-lab2_keys.key_name
   security_groups = [aws_security_group.inf-labs-sg.name]
   user_data       = file("./init.sh")
