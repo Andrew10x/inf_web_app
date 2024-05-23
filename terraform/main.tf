@@ -5,7 +5,7 @@ locals {
   ubuntu_ami          = "ami-0faab6bdbac9486fb"
   region              = "eu-central-1"
   key_pair_name       = "inf-lab2"
-  author              = "Andew10x & Yaroslava"
+  author              = "Andew10x and Yaroslava"
 }
 
 provider "aws" {
